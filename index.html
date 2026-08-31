@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NusaExplore — Explore Indonesia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero" id="home">
+  <nav>
+    <a class="brand" href="#home">Nusa<span>Explore</span></a>
+    <div class="navlinks">
+      <a href="#explore">Explore</a>
+      <a href="#culture">Culture</a>
+      <a href="#quiz">Quiz</a>
+    </div>
+    <button id="themeBtn" class="icon-btn" aria-label="Ganti tema">☾</button>
+  </nav>
+
+  <div class="hero-content">
+    <p class="eyebrow">✦ DIGITAL CULTURE JOURNEY</p>
+    <h1>Explore Indonesia,<br><em>One Culture at a Time.</em></h1>
+    <p class="hero-text">Jelajahi warna, rasa, cerita, dan keunikan budaya Nusantara dalam satu perjalanan digital.</p>
+    <a class="primary-btn" href="#explore">Mulai Menjelajah <span>→</span></a>
+  </div>
+  <div class="hero-orb orb1"></div><div class="hero-orb orb2"></div>
+</header>
+
+<main>
+<section class="section intro" id="explore">
+  <div>
+    <p class="eyebrow">01 — CHOOSE YOUR ADVENTURE</p>
+    <h2>Mau menjelajah Indonesia dari mana?</h2>
+    <p>Pilih wilayah untuk menemukan cerita budaya yang membuat Indonesia begitu beragam.</p>
+  </div>
+  <div class="island-grid" id="islandGrid"></div>
+</section>
+
+<section class="section region-panel" id="culture">
+  <div class="section-head">
+    <div>
+      <p class="eyebrow">02 — CULTURE SPOTLIGHT</p>
+      <h2 id="regionTitle">Pilih sebuah wilayah</h2>
+    </div>
+    <div class="search-wrap"><input id="searchInput" placeholder="Cari budaya atau wilayah..."><span>⌕</span></div>
+  </div>
+
+  <div class="culture-grid" id="cultureGrid"></div>
+  <div class="funfact" id="funFact">
+    <span>💡</span><p>Pilih wilayah di atas untuk melihat fakta unik Nusantara.</p>
+  </div>
+</section>
+
+<section class="section timeline">
+  <p class="eyebrow">03 — WHY EXPLORE?</p>
+  <h2>Indonesia bukan hanya tempat.<br><em>Indonesia adalah ribuan cerita.</em></h2>
+  <div class="stats">
+    <div><strong>17K+</strong><span>Pulau</span></div>
+    <div><strong>1K+</strong><span>Kelompok etnis</span></div>
+    <div><strong>700+</strong><span>Bahasa daerah</span></div>
+  </div>
+  <p class="small-note">Angka di atas bersifat ringkasan untuk konteks visual; keragaman Indonesia terus didokumentasikan dan diklasifikasikan dengan cara berbeda.</p>
+</section>
+
+<section class="section quiz-section" id="quiz">
+  <div class="quiz-copy">
+    <p class="eyebrow">04 — MINI QUIZ</p>
+    <h2>Seberapa kenal kamu dengan Nusantara?</h2>
+    <p>Jawab beberapa pertanyaan singkat dan lihat skor kamu.</p>
+  </div>
+  <div class="quiz-card" id="quizCard">
+    <div id="quizContent"></div>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div><a class="brand" href="#home">Nusa<span>Explore</span></a><p>Made for curious explorers of Indonesia.</p></div>
+  <a href="#home">Back to top ↑</a>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
